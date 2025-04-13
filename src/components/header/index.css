@@ -1,0 +1,90 @@
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Header content */
+  .header-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  /* Button Styles */
+  .nav-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Mobile (small devices) */
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .header-content {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .nav-btn {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+  
+  /* Tablet (medium devices) */
+  @media (max-width: 900px) {
+    .header {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .nav-btn {
+      padding: 12px 18px;
+      margin: 0 5px;
+    }
+  }
+  
+  /* Desktop (large devices) */
+  @media (min-width: 901px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .nav-btn {
+      padding: 10px 20px;
+      margin: 0 10px;
+    }
+    .header-content {
+        width: 100%;
+        justify-content: space-between;
+      }
+  }
+  

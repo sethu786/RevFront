@@ -1,0 +1,38 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .landing-container h2 {
+    color: #333;
+  }
+  
+  .landing-container p {
+    color: #777;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .landing-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  .landing-btn:hover {
+    background-color: #0056b3;
+  }
+  
