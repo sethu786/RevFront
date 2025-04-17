@@ -19,7 +19,7 @@ const Dashboard = () => {
 
     const fetchCategories = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/categories', {
+        const response = await fetch('https://revback-4.onrender.com/api/categories', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
