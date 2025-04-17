@@ -30,7 +30,7 @@ const AddCategory = () => {
       return;
     }
 
-    const response = await fetch('http://localhost:3000/api/categories', {
+    const response = await fetch('https://revback-4.onrender.com/api/categories', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
