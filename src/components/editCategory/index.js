@@ -24,7 +24,7 @@ const EditCategory = () => {
 
     const fetchCategory = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/api/categories/${id}`, {
+        const response = await fetch(`https://revback-4.onrender.com/api/categories/${id}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
